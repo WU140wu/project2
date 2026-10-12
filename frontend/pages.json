@@ -1,0 +1,38 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": { "navigationBarTitleText": "科创项目" }
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": { "navigationBarTitleText": "发布项目" }
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": { "navigationBarTitleText": "我的" }
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": { "navigationBarTitleText": "项目详情" }
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校园科创",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F5F6F8"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#3B82F6",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{ "pagePath": "pages/index/index", "text": "首页" },
+			{ "pagePath": "pages/publish/publish", "text": "发布" },
+			{ "pagePath": "pages/mine/mine", "text": "我的" }
+		]
+	},
+	"uniIdRouter": {}
+}
