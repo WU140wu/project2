@@ -6,7 +6,7 @@ class Config:
     """全局配置，敏感信息从环境变量 / .env 读取。"""
 
     SECRET_KEY = os.getenv("SECRET_KEY", "dev-secret-change-me")
-    JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "dev-jwt-secret-change-me")
+    JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "dev-jwt-secret-change-me-0123456789abcdef")
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(days=7)
 
     # MySQL 连接串：mysql+pymysql://用户名:密码@主机:端口/数据库?charset=utf8mb4
